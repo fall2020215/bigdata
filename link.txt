@@ -1,1 +1,2 @@
 https://docs.oracle.com/javase/tutorial/deployment/jar/build.html
+http://jcsites.juniata.edu/faculty/Rhodes/smui/hadoopcommands.htm
