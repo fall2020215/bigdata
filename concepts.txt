@@ -1,0 +1,6 @@
+********************** what is Hadoop daemons ***********************
+Daemons in computing terms is a process that runs in the background. Hadoop has five such daemons. 
+They are NameNode, Secondary NameNode, DataNode, JobTracker and TaskTracker. Each daemons runs separately in its own JVM. 
+We discuss about NameNode, Secondary NameNode and DataNode in this post as they are associated with HDFS.
+
+LINK: https://learnhadoopwithme.wordpress.com/tag/hadoop-daemons/
