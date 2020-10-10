@@ -1,0 +1,12 @@
+ cd 
+ cd workspace
+ cd wordcount
+ cd src
+ ls solution
+ javac -classpath `hadoop classpath` solution/*.java
+ jar cvf wc.jar solution/*.class
+ hadoop jar wc.jar solution.WordCount \ 
+ shakespeare wordcounts
+ hadoop fs -ls wordcounts
+ hadoop fs -cat wordcounts/part-r-00000 | less
+ 
