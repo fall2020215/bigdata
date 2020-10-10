@@ -1,0 +1,8 @@
+cd
+ls
+cd workspace
+ls -a
+rm -rf .metadata
+
+
+open elipse --> file --> import  --> existing Projects into Workspace -> select root directory
