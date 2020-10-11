@@ -1,3 +1,4 @@
+ ********************** RUN FILE *****************************************************
  cd 
  cd workspace
  cd wordcount
@@ -9,4 +10,14 @@
  shakespeare wordcounts
  hadoop fs -ls wordcounts
  hadoop fs -cat wordcounts/part-r-00000 | less
+ 
+ ************************ PUT FILE AT LOCAL TO HADOOP --> -put command ***************
+ cd
+ cd training_materials
+ cd developer
+ cd data
+ hadoop fs -put shakespeare /user/training/shakespeare   //NOTE: This copies the local shakespeare directory and its contents into a remote, HDFS directory named /user/training/shakespeare
+ 
+ 
+ 
  
