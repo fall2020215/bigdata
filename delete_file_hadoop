@@ -1,0 +1,1 @@
+ex: hadoop fs -rm -r logfile
