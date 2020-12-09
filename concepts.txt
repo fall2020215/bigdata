@@ -4,3 +4,14 @@ They are NameNode, Secondary NameNode, DataNode, JobTracker and TaskTracker. Eac
 We discuss about NameNode, Secondary NameNode and DataNode in this post as they are associated with HDFS.
 
 LINK: https://learnhadoopwithme.wordpress.com/tag/hadoop-daemons/
+
+From the lecture:
+
+A Hadoop cluster is a group of computers working together 
+  – Usually runs HDFS and MapReduce
+A node is an individual computer in the cluster
+  – Master nodes manage distribuMon of work and data to slave nodes
+A daemon is a program running on a node
+  – Each performs different funcMons in the cluster
+  
+*******************************************************************************
